@@ -19,7 +19,7 @@ var data = [
     gauge: {
       shape: "bullet",
       axis: { range: [150, 1150], visible: false },
-      bgcolor: "cyan",
+      bgcolor: "lightblue",
       steps: [
         { range: [350, 750], color: "yellow" }, { range: [750, 1150], color: "red"}],
       bar: { color: "darkblue" }
@@ -29,7 +29,8 @@ var data = [
   
 var layout = { 
   width: 1070, height: 160,
-  margin: { t: 5, r: 15, b: 10, l: 15}
+  margin: { t: 5, r: 15, b: 10, l: 15},
+  paper_bgcolor: "cyan"
 };
 var config = { displayModeBar: false, responsive: false };
 
